@@ -1,8 +1,6 @@
-import app from './app.js'
-
+import app from "./app.js";
 
 
 app.listen(process.env.PORT,()=>{
-    console.log(`Server is Running On Port Number ${process.env.PORT}`)
+    console.log("Server Is Running On Port " + process.env.PORT)
 })
-
