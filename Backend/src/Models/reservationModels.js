@@ -16,7 +16,7 @@ const reservationSchema = new mongoose.Schema({
     email:{
         type:String,
         required:true,
-        validation:[validator.isEmail,"Please Provide Valid Email"]
+        validate:[validator.isEmail,"Please Provide Valid Email"]
     },
     phoneNumber:{
         type:String,

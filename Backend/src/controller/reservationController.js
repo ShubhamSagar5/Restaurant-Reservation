@@ -11,7 +11,7 @@ export const sendReservation = async(req,res,next) => {
     try {
          const {firstName,lastName,email,phoneNo,time,date} = req.body
 
-    console.log(req.body)
+    
         
 
         if(!firstName || !lastName || !email || !phoneNo || !time || !date ){
