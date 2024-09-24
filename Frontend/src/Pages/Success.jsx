@@ -16,7 +16,7 @@ const Success = () => {
       });
     }, 1000);
     return () => clearInterval(timeoutId);
-  }, []);
+  }, [navigate]);
 
   return (
     <>
